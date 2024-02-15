@@ -13,7 +13,7 @@ export const DivMain = styled.div`
   background-size: cover;
   display: flex;
   align-items: center;
-  @media (max-width: 450px) {
+  @media (max-width: 500px) {
     justify-content: center;
     flex-direction: column;
     height: 50vh;
@@ -49,7 +49,7 @@ export const DivSubMain = styled.div`
     align-items: center;
     justify-content: center;
   }
-  @media (max-width: 450px) {
+  @media (max-width: 500px) {
     flex-direction: column;
     align-items: center;
     justify-content: center;
@@ -63,7 +63,7 @@ export const NewDivSub = styled.div`
   @media (max-width: 900px) {
     width: 100%;
   }
-  @media (max-width: 450px) {
+  @media (max-width: 500px) {
     width: 100%;
     margin-bottom: 10vh;
   }
@@ -88,7 +88,7 @@ export const NewDivSub = styled.div`
     @media (max-width: 900px) {
       text-align: center;
     }
-    @media (max-width: 450px) {
+    @media (max-width: 500px) {
       text-align: center;
     }
     @media (max-width: 350px) {
@@ -103,7 +103,7 @@ export const DivAbsolute = styled.div`
   @media (max-width: 900px) {
     margin-bottom: 10vh;
   }
-  @media (max-width: 450px) {
+  @media (max-width: 500px) {
     margin: 0vh;
   }
 `;
@@ -123,7 +123,7 @@ export const DivButtons = styled.div`
   @media (max-width: 900px) {
     padding: 18px 23px;
   }
-  @media (max-width: 450px) {
+  @media (max-width: 500px) {
     padding: 40px 50px;
     border: none;
     box-shadow: none;
@@ -169,12 +169,12 @@ export const Buttons = styled.div<IParamsButton>`
     font-weight: bold;
     padding: 15px;
     text-align: center;
-    @media (max-width: 450px) {
+    @media (max-width: 500px) {
       font-size: 14px;
       padding: 10px 40px;
     }
   }
-  @media (max-width: 450px) {
+  @media (max-width: 500px) {
     padding: 15px 10px;
   }
 `;
@@ -186,10 +186,10 @@ export const DivAsks = styled.div`
   justify-content: center;
   min-height: 80vh;
   margin: 50px 0px;
-  @media (max-width: 450px) {
+  @media (max-width: 500px) {
     flex-direction: column;
   }
-  @media (max-width: 350px) {
+  @media (max-width: 400px) {
     height: 35vh;
   }
 `;
@@ -208,7 +208,7 @@ export const DivImg = styled.div`
     padding: 15px;
     text-align: center;
     margin-bottom: 10px;
-    @media (max-width: 450px) {
+    @media (max-width: 500px) {
       font-size: 30px;
     }
   }
@@ -218,7 +218,7 @@ export const DivImg = styled.div`
     width: 500px;
     transform: none !important;
   }
-  @media (max-width: 450px) {
+  @media (max-width: 500px) {
     justify-content: center;
     flex-direction: column;
     img {
@@ -309,7 +309,7 @@ export const SubFooterLast = styled.div`
     color: #fff;
     font-family: "Montserrat", sans-serif;
     font-size: 12px;
-    @media (max-width: 450px) {
+    @media (max-width: 500px) {
       font-size: 8px;
       max-width: 75%;
       text-align: center;

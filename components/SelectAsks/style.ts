@@ -40,12 +40,12 @@ export const StyledButton = styled(Button)`
       font-weight: bold;
       padding: 15px;
       text-align: center;
-      @media (max-width: 450px) {
+      @media (max-width: 500px) {
         font-size: 13px;
         padding: 2px 2px;
       }
     }
-    @media (max-width: 450px) {
+    @media (max-width: 500px) {
       padding:  10px;
     }
 
@@ -64,7 +64,7 @@ export const DivSub = styled.div`
   @media (max-width: 900px) {
     width: 100%;
   }
-  @media (max-width: 450px) {
+  @media (max-width: 500px) {
     width: 100%;
     margin-bottom: 10vh;
   }
@@ -78,7 +78,7 @@ export const DivSub = styled.div`
     @media (max-width: 900px) {
       text-align: center;
     }
-    @media (max-width: 450px) {
+    @media (max-width: 500px) {
       text-align: center;
     }
     @media (max-width: 350px) {
