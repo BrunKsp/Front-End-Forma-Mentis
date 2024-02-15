@@ -1,0 +1,11 @@
+version: '3.8'
+
+services:
+  forma-mentis-frontend:
+    container_name: forma-mentis-frontend
+    build:
+      context: .
+      dockerfile: ./Dockerfile
+    ports:
+      - 80:3000
+    restart: always
