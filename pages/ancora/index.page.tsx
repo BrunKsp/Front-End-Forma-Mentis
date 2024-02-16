@@ -60,9 +60,9 @@ const HomeAncora: NextPage = () => {
           <p>
             As <b style={{ fontWeight: "bold" }}>Âncoras de carreira</b> são os
             princípios norteadores de uma trajetória profissional. São as
-            motivações que levam as pessoas a escolher determinada profissão, a
-            mudar de trabalha, a buscar uma nova oportunidade, uma recolocação
-            no mercado, a migrar para o empreendedorismo e assim por diante.
+            motivações que levam as pessoas a escolher determinada profissão,
+            mudar de trabalho, buscar uma nova oportunidade, uma recolocação no
+            mercado, migrar para o empreendedorismo e assim por diante.
           </p>
           <p>
             A palavra <b style={{ fontStyle: "italic" }}>âncora</b>, nesse

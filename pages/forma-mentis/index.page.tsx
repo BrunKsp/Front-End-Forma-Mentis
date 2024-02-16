@@ -63,8 +63,8 @@ const HomeFormaMentis: NextPage = () => {
           </p>
           <p>
             Esse teste analisa cinco dimensões de desenvolvimentos em relação à
-            <b style={{ fontStyle: "italic" }}> forma mentis</b>: a
-            responsabilidade; a autonomia; a vontade; o espírito de iniciativa e
+            <b style={{ fontStyle: "italic" }}> forma mentis</b>:<br></br> a
+            responsabilidade, autonomia, vontade, o espírito de iniciativa,
             resolução problemas e a relação funcional no time de trabalho.
           </p>
         </NewDivSub>

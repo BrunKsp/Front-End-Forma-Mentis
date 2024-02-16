@@ -69,7 +69,6 @@ const Home = () => {
             mesmo propósito: servir como uma base sólida para apoiar as tomadas
             de decisão profissionais.
           </p>
-
           <Buttons onClick={() => router.push("/ancora")}>
             <p>TESTE ÂNCORA DE CARREIRA</p>
           </Buttons>
