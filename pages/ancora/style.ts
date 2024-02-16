@@ -34,7 +34,7 @@ export const DivLogoMob = styled.div`
   justify-content: center;
   align-items: center;
   @media (min-width: 900px) {
-    //display: none;
+    display: none;
   }
 `;
 

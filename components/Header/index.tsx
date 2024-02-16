@@ -8,10 +8,9 @@ const Header = () => {
     <div id="top">
       <Main>
         <MainLimitedView>
-          <Image src={LogoHeader} alt="Picture of the author" quality={100} />
+          <Image src={LogoHeader} alt="Picture of the author" quality={100} width={36} height={49}/>
           <DivOptions>
             <a href="/">Início</a>
-            <a href="/#sobre">Sobre</a>
             <p onClick={() => window.open("https://faculdadeam.edu.br/")}>
               Site AMF
             </p>

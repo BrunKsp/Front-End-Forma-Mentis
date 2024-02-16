@@ -66,7 +66,6 @@ export const DivSub = styled.div`
   }
   @media (max-width: 650px) {
     width: 100%;
-    margin-bottom: 10vh;
   }
   p {
     font-size: 18px;

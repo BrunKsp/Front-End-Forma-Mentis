@@ -44,6 +44,7 @@ export const DivSubMain = styled.div`
   margin: 50px 0;
   align-items: center;
   justify-content: center;
+
   min-height: 80vh;
   @media (max-width: 900px) {
     align-items: center;
@@ -56,16 +57,17 @@ export const DivSubMain = styled.div`
   }
 `;
 export const NewDivSub = styled.div`
-  width: 45%;
+  width: 50%;
   display: flex;
+  align-items: center;
   justify-content: center;
   flex-direction: column;
+  min-height: 70vh;
+  text-align: center;
   @media (max-width: 900px) {
     width: 100%;
   }
   @media (max-width: 650px) {
-    width: 100%;
-    margin-bottom: 10vh;
   }
   h1 {
     font-size: 22px;
@@ -82,9 +84,9 @@ export const NewDivSub = styled.div`
     font-size: 18px;
     font-family: "Montserrat", sans-serif;
     color: #555555;
-    margin-top: 15px;
     padding: 0 25px;
     line-height: 30px;
+    margin-top: 8px;
     @media (max-width: 900px) {
       text-align: center;
     }
@@ -98,25 +100,22 @@ export const NewDivSub = styled.div`
 `;
 export const DivAbsolute = styled.div`
   display: flex;
-  align-items: center;
-  justify-content: center;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  justify-content: space-around;
+  flex-direction: row;
   @media (max-width: 900px) {
-    margin-bottom: 10vh;
-  }
-  @media (max-width: 650px) {
-    margin: 0vh;
+    margin-bottom: 0vh;
+    flex-direction: column;
   }
 `;
 
 export const DivButtons = styled.div`
-  width: 90%;
-  max-width: 600px;
+  width: 80%;
   display: flex;
   align-items: center;
-  justify-content: center;
-  flex-direction: column;
-  margin-top: 90px;
-  padding: 40px 50px;
+  justify-content:center ;
+  margin-top: 50px;
   @media (max-width: 1285px) {
     width: 70%;
   }
@@ -141,7 +140,8 @@ export const Buttons = styled.div<IParamsButton>`
   margin-top: 40px;
   transition: all 0.3s ease;
   border: 4px solid transparent;
-  width: 90%; 
+  width: 80%;
+  padding: 0px 10px 0px;
   &:hover {
     background: transparent;
     border: 4px solid #ca0a2c;
@@ -168,14 +168,13 @@ export const Buttons = styled.div<IParamsButton>`
     font-family: "Montserrat", sans-serif;
     font-weight: bold;
     padding: 15px;
-    text-align: center;
     @media (max-width: 650px) {
-      font-size: 14px;
-      padding: 10px 40px;
+      font-size: 13px;
+      padding: 2px 2px;
     }
   }
   @media (max-width: 650px) {
-    padding: 15px 10px;
+    padding: 10px;
   }
 `;
 
@@ -183,26 +182,28 @@ export const DivAsks = styled.div`
   width: 100%;
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: space-around;
   min-height: 80vh;
-  margin: 50px 0px;
+  text-align: center;
   @media (max-width: 650px) {
     flex-direction: column;
+    min-height: 80vh;
   }
   @media (max-width: 500px) {
     height: 35vh;
+    min-height: 80vh;
   }
 `;
 
 export const DivImg = styled.div`
   display: flex;
-  justify-content: center;
+  //justify-content: space-around;
   align-items: center;
   flex-direction: column;
   align-items: center;
   h1 {
     color: black;
-    font-size: 58px;
+    font-size: 50px;
     font-family: "Montserrat", sans-serif;
     font-weight: bold;
     padding: 15px;
@@ -214,8 +215,8 @@ export const DivImg = styled.div`
   }
 
   img {
-    height: 500px;
-    width: 500px;
+    height: 40vh;
+    width: 40vh;
     transform: none !important;
   }
   @media (max-width: 650px) {

@@ -5,8 +5,6 @@ export const Main = styled.div`
   width: 100%;
   height: 4.5rem;
   display: flex;
-  align-items: center;
-  justify-content: center;
   @media (max-width: 450px) {
     height: 7rem;
     justify-content: space-around;
@@ -14,12 +12,22 @@ export const Main = styled.div`
 `;
 
 export const MainLimitedView = styled.div`
-  max-width: 1200px;
-  width: 100%;
+  width: 90%;
   display: flex;
   justify-content: space-around;
   flex-direction: row;
   align-items: center;
+
+  img {
+    margin-left: 160px;
+  }
+
+  @media (max-width: 650px) {
+    img {
+      margin-left: 50px;
+    }
+  }
+
   @media (max-width: 450px) {
     flex-direction: column;
     height: 100%;
@@ -29,10 +37,10 @@ export const MainLimitedView = styled.div`
 export const DivOptions = styled.div`
   display: flex;
   align-items: center;
-  justify-content: space-around;
-  width: 30%;
+  justify-content: end;
+  width: 100%;
   min-width: 300px;
-  a{
+  a {
     color: #555555;
     font-family: "Montserrat", sans-serif;
     font-weight: bold;
@@ -54,6 +62,7 @@ export const DivOptions = styled.div`
     font-weight: bold;
     font-size: 15px;
     transition: all 0.3s ease;
+    margin-left: 20px;
     &:hover {
       color: #55555555;
       cursor: pointer;

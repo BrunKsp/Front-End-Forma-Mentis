@@ -24,7 +24,6 @@ import router from "next/router";
 import SelectAsks from "@/components/SelectAsks/SelectAsks";
 
 const Home = () => {
-
   return (
     <div>
       <Seo title="Forma Mentis" description="Teste Forma Mentis" />
@@ -37,7 +36,7 @@ const Home = () => {
           <Image src={Logo} alt="Picture of the author" height={50} />
         </DivLogoMob>
       </DivMain>
-      <DivSubMain id="sobre">
+      <DivAbsolute>
         <NewDivSub>
           <p>
             O <b style={{ fontWeight: "bold" }}>Teste Forma Mentis</b> tem por
@@ -48,9 +47,16 @@ const Home = () => {
           <p>
             Esse teste analisa cinco dimensões de desenvolvimentos em relação à
             <b style={{ fontStyle: "italic" }}> forma mentis</b>: a
-            responsabilidade; a autonomia; a vontade; o espírito de iniciativa e
+            responsabilidade, autonomia, vontade, o espírito de iniciativa,
             resolução problemas e a relação funcional no time de trabalho.
           </p>
+          <DivButtons>
+            <Buttons onClick={() => router.push("/forma-mentis")}>
+              <p>TESTE FORMA MENTIS</p>
+            </Buttons>
+          </DivButtons>
+        </NewDivSub>
+        <NewDivSub>
           <p>
             As <b style={{ fontWeight: "bold" }}>Âncoras de carreira</b> são os
             princípios norteadores de uma trajetória profissional. São as
@@ -66,26 +72,18 @@ const Home = () => {
             mesmo propósito: servir como uma base sólida para apoiar as tomadas
             de decisão profissionais.
           </p>
-        </NewDivSub>
-        <DivAbsolute>
           <DivButtons>
-            <Buttons onClick={() => router.push("/forma-mentis")}>
-              <p>TESTE FORMA MENTIS</p>
-            </Buttons>
             <Buttons onClick={() => router.push("/ancora")}>
               <p>TESTE ÂNCORA DE CARREIRA</p>
             </Buttons>
           </DivButtons>
-        </DivAbsolute>
-      </DivSubMain>
+        </NewDivSub>
+      </DivAbsolute>
       <DivAbsolute>
         <DivAsks>
           <DivImg>
-            <h1>Duvidas Frequentes</h1>
-            <Image
-              src={Duvidas}
-              alt="ask"
-            />
+            <h1>Dúvidas Frequentes</h1>
+            <Image src={Duvidas} alt="ask" />
           </DivImg>
           <SelectAsks></SelectAsks>
         </DivAsks>

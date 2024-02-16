@@ -21,24 +21,6 @@ const Select = () => {
     <DivSelect>
       <StyledButton
         variant="outlined"
-        onClick={handleToggleCollapse1}
-        endIcon={isCollapsed1 ? <ExpandLessOutlined /> : <ExpandMoreOutlined />}
-      >
-        <p>Benefícios Âncora De Carreiras </p>
-      </StyledButton>
-      <Collapse in={isCollapsed1}>
-        <DivSub>
-          {" "}
-          <p>
-            As <b style={{ fontStyle: "italic" }}>Âncoras de Carreira</b>{" "}
-            beneficiam ao orientar as escolhas profissionais.Elas representam as
-            motivações por trás das decisões, influenciando escolhas de
-            carreira, mudanças de emprego e busca por oportunidades.
-          </p>
-        </DivSub>
-      </Collapse>
-      <StyledButton
-        variant="outlined"
         onClick={handleToggleCollapse2}
         endIcon={isCollapsed2 ? <ExpandLessOutlined /> : <ExpandMoreOutlined />}
       >
@@ -46,7 +28,6 @@ const Select = () => {
       </StyledButton>
       <Collapse in={isCollapsed2}>
         <DivSub>
-          {" "}
           <p>
             O Teste <b style={{ fontStyle: "italic" }}>Forma Mentis</b>{" "}
             beneficia ao avaliar a mentalidade empreendedora dos indivíduos,
@@ -54,6 +35,23 @@ const Select = () => {
             resolução de problemas, além da relação em equipe. Sendo valiosa
             para orientar escolhas e contribuir para o desenvolvimento de
             profissionais conscientes e bem-sucedidos.
+          </p>
+        </DivSub>
+      </Collapse>
+      <StyledButton
+        variant="outlined"
+        onClick={handleToggleCollapse1}
+        endIcon={isCollapsed1 ? <ExpandLessOutlined /> : <ExpandMoreOutlined />}
+      >
+        <p>Benefícios Âncora De Carreiras </p>
+      </StyledButton>
+      <Collapse in={isCollapsed1}>
+        <DivSub>
+          <p>
+            As <b style={{ fontStyle: "italic" }}>Âncoras de Carreira</b>{" "}
+            beneficiam ao orientar as escolhas profissionais. Elas representam as
+            motivações por trás das decisões, influenciando escolhas de
+            carreira, mudanças de emprego e busca por oportunidades.
           </p>
         </DivSub>
       </Collapse>
