@@ -9,12 +9,10 @@ import Duvidas from "../assets/image/duvidasimg.jpg";
 import { Header, FooterHome } from "../components";
 import {
   DivMain,
-  DivSubMain,
   DivAbsolute,
   NewDivSub,
   DivJpgLogo,
   DivLogoMob,
-  DivButtons,
   Buttons,
   DivAsks,
   DivImg,
@@ -46,23 +44,22 @@ const Home = () => {
           </p>
           <p>
             Esse teste analisa cinco dimensões de desenvolvimentos em relação à
-            <b style={{ fontStyle: "italic" }}> forma mentis</b>: a
+            <b style={{ fontStyle: "italic" }}> forma mentis</b>:<br></br> a
             responsabilidade, autonomia, vontade, o espírito de iniciativa,
             resolução problemas e a relação funcional no time de trabalho.
           </p>
-          <DivButtons>
-            <Buttons onClick={() => router.push("/forma-mentis")}>
-              <p>TESTE FORMA MENTIS</p>
-            </Buttons>
-          </DivButtons>
+
+          <Buttons onClick={() => router.push("/forma-mentis")}>
+            <p>TESTE FORMA MENTIS</p>
+          </Buttons>
         </NewDivSub>
         <NewDivSub>
           <p>
             As <b style={{ fontWeight: "bold" }}>Âncoras de carreira</b> são os
             princípios norteadores de uma trajetória profissional. São as
-            motivações que levam as pessoas a escolher determinada profissão, a
-            mudar de trabalha, a buscar uma nova oportunidade, uma recolocação
-            no mercado, a migrar para o empreendedorismo e assim por diante.
+            motivações que levam as pessoas a escolher determinada profissão,
+            mudar de trabalho, buscar uma nova oportunidade, uma recolocação no
+            mercado, migrar para o empreendedorismo e assim por diante.
           </p>
           <p>
             A palavra <b style={{ fontStyle: "italic" }}>âncora</b>, nesse
@@ -72,11 +69,10 @@ const Home = () => {
             mesmo propósito: servir como uma base sólida para apoiar as tomadas
             de decisão profissionais.
           </p>
-          <DivButtons>
-            <Buttons onClick={() => router.push("/ancora")}>
-              <p>TESTE ÂNCORA DE CARREIRA</p>
-            </Buttons>
-          </DivButtons>
+
+          <Buttons onClick={() => router.push("/ancora")}>
+            <p>TESTE ÂNCORA DE CARREIRA</p>
+          </Buttons>
         </NewDivSub>
       </DivAbsolute>
       <DivAbsolute>

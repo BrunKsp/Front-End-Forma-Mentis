@@ -57,13 +57,12 @@ export const DivSubMain = styled.div`
   }
 `;
 export const NewDivSub = styled.div`
-  width: 50%;
+  width: 90%;
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: flex-end;
   flex-direction: column;
   min-height: 70vh;
-  text-align: center;
   @media (max-width: 900px) {
     width: 100%;
   }
@@ -86,7 +85,7 @@ export const NewDivSub = styled.div`
     color: #555555;
     padding: 0 25px;
     line-height: 30px;
-    margin-top: 8px;
+    text-align: center;
     @media (max-width: 900px) {
       text-align: center;
     }
@@ -98,37 +97,13 @@ export const NewDivSub = styled.div`
     }
   }
 `;
+
 export const DivAbsolute = styled.div`
   display: flex;
-  flex-wrap: wrap;
-  align-items: flex-start;
+  align-items: center;
   justify-content: space-around;
-  flex-direction: row;
   @media (max-width: 900px) {
     margin-bottom: 0vh;
-    flex-direction: column;
-  }
-`;
-
-export const DivButtons = styled.div`
-  width: 80%;
-  display: flex;
-  align-items: center;
-  justify-content:center ;
-  margin-top: 50px;
-  @media (max-width: 1285px) {
-    width: 70%;
-  }
-  @media (max-width: 900px) {
-    padding: 18px 23px;
-  }
-  @media (max-width: 650px) {
-    padding: 40px 50px;
-    border: none;
-    box-shadow: none;
-    justify-content: center;
-    align-items: center;
-    padding: 0px;
     flex-direction: column;
   }
 `;
@@ -137,10 +112,12 @@ export const Buttons = styled.div<IParamsButton>`
   background: linear-gradient(267.89deg, #a24054 -13.95%, #ca0a2c 104.76%);
   border-radius: 55.5px;
   cursor: pointer;
-  margin-top: 40px;
+  margin-top: 70px;
+  margin-bottom: 190px;
   transition: all 0.3s ease;
   border: 4px solid transparent;
-  width: 80%;
+  width: 55%;
+
   padding: 0px 10px 0px;
   &:hover {
     background: transparent;
