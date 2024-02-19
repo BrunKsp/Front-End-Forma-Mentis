@@ -65,8 +65,7 @@ export const NewDivSub = styled.div`
   min-height: 70vh;
   @media (max-width: 900px) {
     width: 100%;
-  }
-  @media (max-width: 650px) {
+    margin-top: 60px;
   }
   h1 {
     font-size: 22px;
@@ -151,30 +150,25 @@ export const Buttons = styled.div<IParamsButton>`
     }
   }
   @media (max-width: 650px) {
+    width: 80%;
     padding: 10px;
   }
 `;
 
 export const DivAsks = styled.div`
-  width: 100%;
   display: flex;
+  width: 100%;
   align-items: center;
   justify-content: space-around;
   min-height: 80vh;
   text-align: center;
   @media (max-width: 650px) {
     flex-direction: column;
-    min-height: 80vh;
-  }
-  @media (max-width: 500px) {
-    height: 35vh;
-    min-height: 80vh;
   }
 `;
 
 export const DivImg = styled.div`
   display: flex;
-  //justify-content: space-around;
   align-items: center;
   flex-direction: column;
   align-items: center;

@@ -3,14 +3,14 @@ import { Button, ButtonBaseProps, ButtonProps } from "@mui/material";
 import styled, { css } from "styled-components";
 
 export const DivSelect = styled.div`
-  width: 90%;
   max-width: 600px;
   display: flex;
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  //margin-top: 90px;
-  //padding: 40px 50px;
+  @media (max-width: 650px) {
+    margin-bottom: 30px;
+  }
 `;
 
 export const StyledButton = styled(Button)`
@@ -22,7 +22,7 @@ export const StyledButton = styled(Button)`
     transition: all 0.3s ease;
     width: 90%;
     border: 4px solid transparent;
-    padding:  0px 10px 0px;
+    padding: 0px 10px 0px;
     &:hover {
       background: transparent;
       border: 4px solid #ca0a2c;
@@ -46,7 +46,7 @@ export const StyledButton = styled(Button)`
       }
     }
     @media (max-width: 650px) {
-      padding:  10px;
+      padding: 10px;
     }
 
     .MuiButton-endIcon {
